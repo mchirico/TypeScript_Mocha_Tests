@@ -3,7 +3,7 @@ import { add, sub, mul, div } from "../src/add";
 
 describe("Calculator", () => {
   it("can add two numbers", () => {
-    console.log("add(3,3) = ", add(3,3))
+    console.log("add(3,3) = ", add(3, 3));
     expect(add(3, 3)).to.equal(6);
   });
 
