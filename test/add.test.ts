@@ -3,12 +3,13 @@ import { add, sub, mul, div } from "../src/add";
 
 describe("Calculator", () => {
   it("can add two numbers", () => {
+    console.log("add(3,3) = ", add(3,3))
     expect(add(3, 3)).to.equal(6);
   });
 
   it("can subtract two numbers", () => {
     const result = sub(2, 4);
-    console.log("subtract: ", result);
+    console.log("sub(2,4) = ", result);
     expect(sub(3, 1)).to.equal(2);
   });
 
@@ -18,6 +19,7 @@ describe("Calculator", () => {
   });
 
   it("can divide two numbers", () => {
+    console.log("div(3, 3) = 1");
     expect(div(3, 3)).to.equal(1);
   });
 });
