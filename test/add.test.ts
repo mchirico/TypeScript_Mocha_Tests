@@ -13,7 +13,7 @@ describe("Calculator", () => {
   });
 
   it("can multiply two numbers", () => {
-    console.log("mul(3,3) = ", mul(3, 3));
+    console.log("mul(3,3) =  ", mul(3, 3));
     expect(mul(3, 3)).to.equal(9);
   });
 
